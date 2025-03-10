@@ -2,7 +2,7 @@
 session_start();
 require 'vendor/autoload.php';
 
-\Stripe\Stripe::setApiKey('sk_test_51QJBGNK9JqRD1EchtmBO2ZRnfGcfK5RgGlNLwlR9ByElxLUeOIaioV5KzqYmFsWHE9DZMvfHWRX1MfgDUa37zzGc00QMl3Rqs6'); // المفتاح السري
+\Stripe\Stripe::setApiKey(''); // المفتاح السري
 
 function createPaymentIntent($amount, $currency = 'usd') {
     try {
