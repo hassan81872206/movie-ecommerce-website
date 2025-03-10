@@ -2,7 +2,7 @@
 session_start();
 require 'vendor/autoload.php';
 
-\Stripe\Stripe::setApiKey(''); // المفتاح السري
+\Stripe\Stripe::setApiKey('Your set api key'); // المفتاح السري
 
 function createPaymentIntent($amount, $currency = 'usd') {
     try {
